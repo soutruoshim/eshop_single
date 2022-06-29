@@ -25,6 +25,7 @@ class ApiBaseHelper {
       throw FetchDataException('Something went wrong, try again later');
     }
 
+    print("api ${url}");
     return responseJson;
   }
 
